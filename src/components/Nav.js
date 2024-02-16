@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 
 const Nav = () => {
   const [show, setShow] = useState(false)
-  const [searchValue, setSearchValue] = useState()
+  const [searchValue, setSearchValue] = useState("")
   const navigate = useNavigate()
 
   useEffect(() => {
