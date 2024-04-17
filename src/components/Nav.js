@@ -7,6 +7,7 @@ const Nav = () => {
   const [searchValue, setSearchValue] = useState("")
   const navigate = useNavigate()
 
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 50) {
